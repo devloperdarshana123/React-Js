@@ -6,7 +6,7 @@ import LearnEvent from "./components/LearnEvent"
 import LearnLiftingStateUp from "./components/LearnLiftingStateUp"
 import UseState from "./components/UseState"
 import CounterApp from "./components/CounterApp"
-
+import UseEffect from "./components/UseEffect"
 function App() {
   // let price = 1000
   const getStock = (data) => {
@@ -22,7 +22,8 @@ function App() {
       {/* <LearnReact /> */}
       {/* <UseState />
       <LearnLiftingStateUp getStock={getStock} /> */}
-      <CounterApp />
+      {/* <CounterApp /> */}
+      <UseEffect />
       {/* <LearnProps stock="Tesla" price={price} /> */}
     </>
   )
