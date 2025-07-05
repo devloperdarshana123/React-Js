@@ -1,4 +1,4 @@
-import { useActionState, useEffect } from 'react'
+import { useEffect } from 'react'
 import {useState} from 'react'
 
 function UseEffect() {
@@ -18,7 +18,7 @@ function UseEffect() {
      console.log('Cleanup Function is Called ');
      }
 
-    }, [count])
+    }, [count , random])
   return (
     <>
     <h1>Count:{count}</h1>

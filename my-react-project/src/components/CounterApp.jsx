@@ -9,7 +9,7 @@ function CounterApp() {
         setCount(count-5)
     }
     function Reset(){
-        setCount(0)
+        setCount(0);
     }
   return (
     <>
